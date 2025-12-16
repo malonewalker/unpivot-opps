@@ -2,8 +2,8 @@ import io
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="Dec Audit Reshaper", layout="wide")
-st.title("Dec Audit Reshaper (Wide → Long)")
+st.set_page_config(page_title="Unpivot Opp Data", layout="wide")
+st.title("Unpivot Opp (Wide → Long)")
 
 uploaded = st.file_uploader("Upload your Excel file", type=["xlsx", "xls"])
 
