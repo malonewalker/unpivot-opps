@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Unpivot Opp Data", layout="wide")
 st.title("Unpivot Opps (Wide → Long)")
 
-uploaded = st.file_uploader("Upload your Excel file", type=["xlsx", "xls"])
+uploaded = st.file_uploader("Upload your Excel file", type=["xlsx", "xls","csv"])
 
 @st.cache_data(show_spinner=False)
 def reshape_dec_audit(file_bytes: bytes) -> pd.DataFrame:
