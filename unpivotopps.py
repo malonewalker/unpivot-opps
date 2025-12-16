@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title="Unpivot Opp Data", layout="wide")
-st.title("Unpivot Opp (Wide → Long)")
+st.title("Unpivot Opps (Wide → Long)")
 
 uploaded = st.file_uploader("Upload your Excel file", type=["xlsx", "xls"])
 
